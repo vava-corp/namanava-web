@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowLeft, Heart } from "lucide-react";
 import { SiteFooter } from '@/components/site-footer';
+import { LogoMark } from '@/components/logo-mark';
 
 const sections = [
   {
@@ -57,10 +58,7 @@ export default function PrivacyPage() {
             href="/"
             className="flex items-center gap-2 text-lg font-semibold tracking-tight"
           >
-            <span className="flex size-9 items-center justify-center rounded-xl bg-[#A0D4F8] text-[#173047]">
-              <Heart size={17} fill="currentColor" />
-            </span>
-            나만바
+            <LogoMark />
           </Link>
           <Link
             href="/"
