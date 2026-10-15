@@ -48,7 +48,7 @@ const answers = [
 
 export default function Page() {
   return (
-    <main className="overflow-hidden bg-[#f7fbff] pb-[112px] pt-[88px] text-[#272321]">
+    <main className="overflow-hidden bg-[#f7fbff]  pt-[88px] text-[#272321]">
       <nav
         className="fixed left-0 right-0 top-0 z-50 mx-auto flex max-w-7xl items-center justify-between bg-[#f7fbff]/90 px-6 py-3 backdrop-blur lg:px-10"
         aria-label="주요 메뉴"

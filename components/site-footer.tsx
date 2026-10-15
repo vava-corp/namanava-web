@@ -1,6 +1,6 @@
 export function SiteFooter() {
   return (
-    <footer className="fixed bottom-0 left-0 right-0 z-50 border-t border-[#eee5dd] bg-[#f7fbff]/90 px-6 py-6 backdrop-blur lg:px-10">
+    <footer className="bottom-0 left-0 right-0 z-50 border-t border-[#eee5dd] bg-[#f7fbff]/90 px-6 py-6 backdrop-blur lg:px-10">
       <div className="mx-auto flex max-w-7xl flex-col gap-3 text-xs text-[#978a81] sm:flex-row sm:items-center sm:justify-between">
         <span className="text-xs font-semibold text-[#272321]">같이</span>
         <span className="text-xs">
@@ -12,6 +12,12 @@ export function SiteFooter() {
           className="text-xs transition-colors hover:text-[#173047]"
         >
           개인정보 처리방침
+        </a>
+        <a
+          href="/child-safety"
+          className="text-xs transition-colors hover:text-[#173047]"
+        >
+          아동 안전 표준 정책
         </a>
       </div>
     </footer>
